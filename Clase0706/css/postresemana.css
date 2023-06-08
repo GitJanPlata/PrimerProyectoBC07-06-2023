@@ -1,0 +1,13 @@
+html{
+    background-color: antiquewhite;
+}
+h1{
+    font-size: 20px;
+    background-color: rgb(247, 187, 109);
+}
+em {
+    color: rgb(111, 111, 252);
+}
+b {
+    color: rgb(99, 99, 168);
+}

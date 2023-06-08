@@ -1,0 +1,83 @@
+html{
+    font-family: 'Lucida sans Unicode';
+}
+body{
+    background-color: grey;
+}
+h1{
+    text-align: center;
+    letter-spacing: 3px; 
+}
+.green {
+    color: green;
+}
+
+.yellow {
+    color: rgba(245, 161, 5, 0.938);
+}
+
+.box{
+    border: 1px solid lightgray;
+}
+.box > h2 {
+    
+    color: rgb(97, 189, 5);
+}
+.h2-content {
+        position: relative;
+        z-index: 2;
+}
+.h2-underline {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 95%;
+        height: 1px;
+        background-color: lightgray;
+}
+.box > h2 {
+        position: relative;
+        margin-left: 20px;
+}
+.box > p, .box > h3 {
+        margin-bottom: 0px;
+        margin-left: 20px;
+
+}
+.page-container {
+    padding: 15px;
+    margin: 20px;
+    background-color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content-container {
+    display: flex;
+}
+
+.menu {
+    margin-right: 20px;
+}
+.menu li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.menu li > a {
+    text-align: center;
+    display: block;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+.menu li.current a {
+    background-color: brown;
+}
+
+
+
