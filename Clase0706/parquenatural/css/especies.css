@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    letter-spacing: 5px;
+
+}
+
+.box{
+    border: 1px solid lightgray;
+    background-image: linear-gradient(to bottom, #CCCCCC 10px, #FFFFFF 10%, #CCCCCC 150%);
+    padding: 25px;
+}
+.box > h2 {
+    color: rgb(97, 189, 5);
+    position: relative;
+    margin-left: 20px;
+}
+.h2-content {
+        position: relative;
+        z-index: 2;
+}
+.h2-underline {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 95%;
+        height: 1px;
+        background-color: lightgray;
+}
+.green {
+    color: green;
+}
+
+.yellow {
+    color: rgba(245, 161, 5, 0.938);
+}
